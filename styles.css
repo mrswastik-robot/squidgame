@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'squid-theme';
+    src: url(fonts/squidfont.ttf);
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    background-color: #393E46;
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: url("https://wallpaperboat.com/wp-content/uploads/2021/10/18/79418/squid-game-08.jpg");
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+section .box{
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, .5);
+    overflow: hidden;
+    color: #000;
+}
+                                     /*https://www.youtube.com/watch?v=1u8qTcFeQzk yaha se dekh k pura kiya */
+section .box:before{
+    content: '';
+    position: absolute;
+    top: -20px;
+    bottom: -20px;
+    left: -20px;
+    right: -20px;
+    background: url("https://wallpaperboat.com/wp-content/uploads/2021/10/18/79418/squid-game-08.jpg");
+    background-attachment: fixed;
+    filter: blur(8px);
+}
+
+.container{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.dice{
+    display: inline-block;
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'squid-theme', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #bc0117;
+  }
+
+  section .box p{
+    font-family: 'squid-theme', 'Indie Flower';
+    position: relative;
+    z-index: 2;
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  section .box img{
+    position: relative;
+    width: 70%;
+    z-index: 2;
+  }
+
+  footer{
+    font-family: 'squid-theme', 'Indie Flower';
+    font-size: 1rem;
+    background: url("https://wallpaperboat.com/wp-content/uploads/2021/10/18/79418/squid-game-08.jpg");
+    background-attachment: fixed;
+    color: #ed1b76;
+
+  }
